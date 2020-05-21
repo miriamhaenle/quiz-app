@@ -18,4 +18,9 @@
 .navigation__icon {
   width: 30px;
   height: auto;
+  filter: invert(1);
+}
+
+.navigation__link--active > .navigation__icon {
+  filter: invert(0);
 }

@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="scss/styles.scss" />
   </head>
-  <body class="main__grid">
+  <body class="main__grid horizontal-center">
     <header class="main__header">
       <h1 class="main__headline">
         Create
@@ -20,7 +20,7 @@
       <form class="form">
         <h2 class="form__headline">Add new questions</h2>
 
-        <label for="question"
+        <label for="question" class="d-flex form__textarea"
           >Add your question here
           <textarea
             name="question"
@@ -30,7 +30,7 @@
           ></textarea>
         </label>
 
-        <label for="answer"
+        <label for="answer" class="d-flex form__textarea"
           >Add your answer here<textarea
             name="answer"
             id="answer"
@@ -49,7 +49,7 @@
         ><img src="img/zuhause.svg" alt="Home" class="navigation__icon"
       /></a>
       <a class="navigation__link" href="bookmarks.html">
-        <img src="img/lesezeichen.svg" alt="" class="question__bookmark" />
+        <img src="img/lesezeichen.svg" alt="" class="navigation__icon" />
       </a>
       <a class="navigation__link navigation__link--active" href="create.html"
         ><img
