@@ -1,0 +1,14 @@
+.taglist {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+.taglist > li {
+  background: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+
+.taglist__tag {
+  flex-shrink: 3;
+}
