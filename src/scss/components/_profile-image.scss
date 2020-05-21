@@ -1,5 +1,10 @@
-.profile__image {
+.profileimage {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
+}
+
+.profileimage__image {
+  width: 200px;
+  height: auto;
 }
