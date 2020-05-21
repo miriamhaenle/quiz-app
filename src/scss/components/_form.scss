@@ -1,8 +1,19 @@
 .form {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
-.form__input  {
+.form__headline {
+  font-size: 2em;
+  color: var(--primary-light);
+  border-bottom: 2px solid var(--primary-light);
+}
+
+.form__input {
 }
 
 .form__tags {
+  display: flex;
+  flex-direction: column;
 }
