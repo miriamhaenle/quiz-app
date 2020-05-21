@@ -1,21 +1,38 @@
 .question {
+  display: flex;
+  flex-flow: column;
   padding: 20px;
-  background: #eee;
+  background: #8da9c4;
   box-shadow: 0 6px 8px #0005;
 }
 
 .question__title {
+  font-weight: 900;
+  font-size: 2em;
 }
 
 .question__question {
+  text-align: start;
 }
 
 .question__answer {
   display: none;
+  border: 4px dotted var(--secondary);
 }
 
 .question__taglist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.question__taglist > li {
+  background: var(--secondary);
+  border: 2px solid var(--secondary);
 }
 
 .question__bookmark {
+  width: 30px;
+  height: auto;
 }

@@ -8,12 +8,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #333;
-  color: white;
-  text-decoration: none;
-  font-size: 1.4em;
+  background: var(--primary);
 }
 
 .navigation__link--active {
   background: var(--secondary);
+}
+
+.navigation__icon {
+  width: 30px;
+  height: auto;
 }
