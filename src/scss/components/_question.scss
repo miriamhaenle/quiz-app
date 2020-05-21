@@ -7,13 +7,17 @@
 }
 
 .question__title {
+  font-weight: 900;
+  font-size: 2em;
 }
 
 .question__question {
+  text-align: start;
 }
 
 .question__answer {
   display: none;
+  border: 4px dotted var(--secondary);
 }
 
 .question__taglist {
