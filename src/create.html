@@ -18,20 +18,30 @@
     </header>
     <main class="scrollable p-20 gap-20">
       <form class="form">
-        <section class="form__input">
-          <p>Add your question here</p>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </section>
-        <section class="form__input">
-          <p>Add your answer here</p>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </section>
-        <section class="form__tags">
-          <label class="form__input"
-            >Tags<input type="text" name="" id=""
-          /></label>
-        </section>
-        <button class="button"></button>
+        <h2 class="form__headline">Add new questions</h2>
+
+        <label for="question"
+          >Add your question here
+          <textarea
+            name="question"
+            id="question"
+            cols="40"
+            rows="10"
+          ></textarea>
+        </label>
+
+        <label for="answer"
+          >Add your answer here<textarea
+            name="answer"
+            id="answer"
+            cols="40"
+            rows="10"
+          ></textarea>
+        </label>
+        <label class="form__tags pt-5"
+          >Tags<input type="text" name="" id=""
+        /></label>
+        <button class="button mt-20">SUBMIT</button>
       </form>
     </main>
     <nav class="navigation">
