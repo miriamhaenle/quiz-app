@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="scss/styles.scss" />
   </head>
-  <body class="main__grid">
+  <body class="main__grid horizontal-center">
     <header class="main__header">
       <h1 class="main__headline">
         Quiz App
@@ -19,6 +19,7 @@
     <main class="scrollable p-20 gap-20">
       <section class="question">
         <img src="img/lesezeichen.svg" alt="" class="question__bookmark" />
+
         <h2 class="question__title">Question</h2>
         <p class="question__question">
           Who where Harry Potter's parents?
@@ -41,8 +42,8 @@
         <p class="question__question">
           In order of birth, who are the seven Weasly sibblings?
         </p>
-        <button class="button p-10">Show answer</button>
-        <p class="question__answer p-10">
+        <button class="button p-10">Hide answer</button>
+        <p class="question__answer-expanded p-10">
           Bill, Charlie, Percy, Fred, George, Ron, Ginny
         </p>
         <ul class="taglist pl-0 p-5">
@@ -75,7 +76,7 @@
         ><img src="img/zuhause.svg" alt="Home" class="navigation__icon"
       /></a>
       <a class="navigation__link" href="bookmarks.html">
-        <img src="img/lesezeichen.svg" alt="" class="question__bookmark" />
+        <img src="img/lesezeichen.svg" alt="" class="navigation__icon" />
       </a>
       <a class="navigation__link" href="create.html"
         ><img

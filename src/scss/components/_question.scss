@@ -20,6 +20,11 @@
   border: 4px dotted var(--secondary);
 }
 
+.question__answer-expanded {
+  display: block;
+  border: 4px dotted var(--secondary);
+}
+
 .question__taglist {
   display: flex;
   flex-flow: row wrap;
@@ -35,4 +40,7 @@
 .question__bookmark {
   width: 30px;
   height: auto;
+  align-self: end;
+  position: relative;
+  top: -9%;
 }
