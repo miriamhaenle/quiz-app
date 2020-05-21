@@ -1,6 +1,7 @@
-.main-header {
+.main__header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ddd;
+  background: var(--primary);
+  color: var(--secondary-light);
 }
