@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="scss/styles.scss" />
   </head>
   <body class="main__grid">
-    <header class="main__header">Profile</header>
+    <header class="main__header">
+      <h1 class="main__headline">
+        Profile
+      </h1>
+    </header>
     <main>
       <section class="profileimage">
         <img
@@ -36,12 +40,25 @@
     </main>
 
     <nav class="navigation">
-      <a class="navigation__link" href="index.html">H</a>
-      <a class="navigation__link" href="bookmarks.html">B</a>
-      <a class="navigation__link" href="create.html">C</a>
+      <a class="navigation__link" href="index.html"
+        ><img src="img/zuhause.svg" alt="Home" class="navigation__icon"
+      /></a>
+      <a class="navigation__link" href="bookmarks.html">
+        <img
+          src="img/lesezeichen.svg"
+          alt="Bookmark"
+          class="navigation__icon"
+        />
+      </a>
+      <a class="navigation__link" href="create.html"
+        ><img
+          src="img/instrumententafel.svg"
+          alt="create"
+          class="navigation__icon"
+      /></a>
       <a class="navigation__link navigation__link--active" href="profile.html"
-        >P</a
-      >
+        ><img src="img/benutzer.svg" alt="profile" class="navigation__icon"
+      /></a>
     </nav>
   </body>
 </html>
